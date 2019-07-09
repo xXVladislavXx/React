@@ -25,7 +25,7 @@ $("#navToggle").click(function() {
     $("body").toggleClass("locked");
 });
 
-$('.benefits__number').spincrement({
+jQuery('.benefits__number').spincrement({
         thousandSeparator: "",
         duration: 1200
     });

@@ -1,0 +1,39 @@
+.studio{padding-top:130px;padding-bottom:250px}
+.studio .aboutStudio{display:flex;align-items:center}
+.studio .aboutStudio span{font-size:48px;font-family:"halveticaBold";width:25%}
+.studio .aboutStudio p{font-size:23px;color:#585858;padding:48px 0 48px 70px;background:url(/img/we.png);font-family:"ptsansCaption";background-repeat:no-repeat;background-size:70%;width:75%;line-height:144%}
+.studio .servicesStudio{padding-top:140px;display:flex;justify-content:space-between;flex-wrap: wrap;}
+.studio .ourServices{padding:15px 22px 22px;transition:.5s;box-sizing:border-box;min-width:393px;margin-top: 20px;}
+.studio .servicesStudio .ourServices:nth-child(1){width:35%}
+.studio .servicesStudio .ourServices:nth-child(2){width:32%}
+.studio .servicesStudio .ourServices:nth-child(3){width:30%}
+.studio .ourServices:hover{background:#f6ae48;transition:.5s}
+.studio .ourServices:hover p{color:#fff;transition:.5s}
+.studio .ourServices:hover h4{color:#fff;transition:.5s}
+.studio .ourServices img{transition:.5s}
+.studio .servicesStudio h4{font-family:arial;font-size:20.45px;margin-bottom:10px;margin-top:5px}
+.studio .servicesStudio p{font-family:arial;font-size:16.34px;line-height:24px}
+.studio .servicesStudio .price{font-family:arial;font-size:18px;border:3px solid #fff;padding:8px 15px;color:#fff;max-width:135px;box-sizing:border-box}
+.studio .control{display:flex;justify-content:space-between;align-items:center;margin-top:25px}
+.studio .moreServices{width:21px;height:24px;background:url(/img/right-arrow.png)}
+
+@media(max-width:1170px) {
+.studio .servicesStudio{justify-content:space-around}
+.studio .aboutStudio p{background-size:contain}
+.studio{padding-bottom:80px;padding-top:80px}
+.studio .servicesStudio{padding-top:60px}
+}
+
+@media(max-width:930px) {
+.studio .aboutStudio span{width:auto;display:block;text-align:center;margin-bottom:40px}
+.studio .aboutStudio p{width:100%;box-sizing:border-box}
+.studio .aboutStudio{display:block}
+}
+@media(max-width:678px) {
+.studio .aboutStudio p{font-size:18px;line-height:24px;padding:24px 0 24px 35px}
+.studio .aboutStudio span{font-size:45px}
+}
+
+@media(max-width:475px) {
+.studio .ourServices{min-width:100%}
+}

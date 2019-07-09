@@ -1,0 +1,18 @@
+.credo{background:url(/img/credo-background.jpg);padding-top:130px;padding-bottom:165px;background-size:cover}
+.credo h2{text-align:center;font-size:50px;color:#fff;font-family:"exo2Bold";margin-bottom:60px}
+.credo p{text-align:center;font-size:24px;color:#fff;font-family:"helveticaRoman";max-width:1033px;margin:0 auto;letter-spacing:1px;line-height:36px}
+@media(max-width:1170px) {
+.credo{padding-left:20px;padding-right:20px}
+.credo{padding-top:80px;padding-bottom:100px}
+}
+
+@media(max-width:930px) {
+.care .container{display:block}
+.care .container > div{width:auto}
+.care img{max-width:500px;display:block;margin:0 auto}
+}
+
+@media(max-width:678px) {
+.credo pp{font-size:18px;line-height:24px}
+.credo h2{font-size:25px;margin-bottom:30px}
+}
