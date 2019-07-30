@@ -3,6 +3,7 @@ import './header.css';
 // import './spincrement.js';
 
 class Header extends Component{
+  
   render() {
     return(
       <div>
@@ -28,15 +29,15 @@ class Header extends Component{
           <div className="headFlex">
             <div className="headItem">
               <span className="headIcon"></span>
-              <p><span className="benefits__number">518</span>оказанных услуг</p>
+              <p><span className="benefits__number">{this.props.infoHead.countServices}</span>оказанных услуг</p>
             </div>
             <div className="headItem">
               <span className="headIcon"></span>
-              <p><span className="benefits__number">345</span>проектов</p>
+              <p><span className="benefits__number">{this.props.infoHead.countProjects}</span>проектов</p>
             </div>
             <div className="headItem">
              <span className="headIcon"></span>
-              <p><span className="benefits__number">218</span>постоянных клиентов</p>
+              <p><span className="benefits__number">{this.props.infoHead.countClients}</span>постоянных клиентов</p>
             </div>
           </div>
         </div>

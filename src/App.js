@@ -12,11 +12,15 @@ import Footer from './components/footer/footer.js';
 
 
 class App extends Component {
+  constructor() {
+    super();
+    this.state = {countServices: 518, countProjects: 345, countClients: 218};
+  }
 render(){
   return (
 
     <div className="App">
-      <Header />
+      <Header infoHead = {this.state}/>
       <Studio />
       <Credo />
       <Development />
